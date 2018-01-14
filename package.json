@@ -1,0 +1,17 @@
+{
+  "name": "rtail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js | rtail --id api --host 127.0.0.1 --port 9999",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gaurav Mehla <gaurav.ror007@gmail.com> (https://www.mehla.in/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
